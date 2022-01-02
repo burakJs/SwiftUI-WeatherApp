@@ -73,7 +73,7 @@ struct WeatherView: View {
                     HStack {
                         WeatherRow(logo: "wind", name: "Wind Speed", value: (weather.wind.speed.roundDouble() + " m/s"))
                         Spacer()
-                        WeatherRow(logo: "humidity", name: "Humidity        ", value: (weather.main.humidity.roundDouble() + "%"))
+                        WeatherRow(logo: "drop", name: "Humidity        ", value: (weather.main.humidity.roundDouble() + "%"))
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
